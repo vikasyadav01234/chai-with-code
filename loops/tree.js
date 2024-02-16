@@ -12,3 +12,20 @@ for (const i of greetings) {
     console.log(`Each char is ${i}`)
     
 }
+const map = new Map()
+map.set('IN',"India")
+map.set('USA',"United state of America")
+
+console.log(map);
+for (const [key, value] of map) {
+    console.log(key,':-',value);
+    
+}
+const myobject = {
+    'js':"javascript",
+    'py':"python",
+    'cpp':"c++",
+}
+for (const key in myobject) {
+    console.log(`${key} shorcut is for ${myobject[key]}`);
+}
