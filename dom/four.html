@@ -29,7 +29,15 @@
     addoptimize("Linux")
     //edit
     const secondlang = document.querySelector("li:nth-child(2)")
-    secondlang.innerHTML = "MoJo"
+    //secondlang.innerHTML = "MoJo"
+    const newli = document.createElement('li')
+    newli.textContent = "MoJo"
+    secondlang.replaceWith(newli);
+
+    //remove
+    const lastlang = document.querySelector('li:last-child')
+    lastlang.remove()
+    
 
 </script>
 </html>
