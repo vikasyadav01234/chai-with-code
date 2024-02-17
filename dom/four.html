@@ -12,6 +12,15 @@
     
 </body>
 <script>
+    function addlaungage(langName){
+        const li = document.createElement('li');
+        li.innerHTML =  `${langName}`
+        document.querySelector(`.language`).appendChild(li)
+    }
+    addlaungage("Python");
+    addlaungage("Typescripte");
+    addlaungage("Java");
+    addlaungage("C++");
     
 </script>
 </html>
