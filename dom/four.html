@@ -21,6 +21,11 @@
     addlaungage("Typescripte");
     addlaungage("Java");
     addlaungage("C++");
-    
+    function addoptimize(langName){
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+    }
+    addoptimize("Linux")
 </script>
 </html>
