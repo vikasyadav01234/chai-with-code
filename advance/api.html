@@ -10,5 +10,13 @@
 
 </body>
 
-
+<script>
+    const requestUrl ='https://api.github.com/users/vikasyadav01234';
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET',requestUrl)
+    xhr.onreadystatechange = function(){
+        console.log(xhr.readyState);
+    }
+    xhr.send()
+</script>
 </html>
