@@ -27,10 +27,23 @@
     function change4(){
         document.querySelector('h1').innerHTML = "Java Script";
     }
-    setInterval(change4,4000);
-    setInterval(change,5000);
-    setInterval(change2,7000);
-    setInterval(change3,4000);
+
+    const changeMe=setInterval(change4,4000);
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearInterval(changeMe)
+        console.log("Change4 Stopped")
+    })
+    const changeMe2=setInterval(change,5000);
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearInterval(changeMe2);
+        console.log("Change Stopped");
+    })
+    const changeMe3=setInterval(change2,7000);
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearInterval(changeMe3);
+        console.log("Change2 Stopped");
+    })
+    //setInterval(change3,4000);
     setTimeout(Vikas, 5000);
     setInterval(Vikas, 1000);
 </script>
