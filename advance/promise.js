@@ -37,3 +37,11 @@ promisetwo.then((user) =>{
 }).catch(function(error){
     console.log(error);
 })
+
+    
+fetch('https://api.github.com/users/vikasyadav01234').then((user)=>{
+    return user.json()
+}).then((data) =>{
+    console.log(data);
+})
+.catch((error)=>console.log(error))
