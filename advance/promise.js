@@ -29,6 +29,7 @@ const promisetwo = new Promise(function(resolve, reject){
     },1000)
 })
 
+
 promisetwo.then((user) =>{
     console.log(user);
     return user.username;
