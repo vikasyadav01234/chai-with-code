@@ -18,6 +18,7 @@ new Promise(function(resolve, reject){
 })
 
 
+
 const promisetwo = new Promise(function(resolve, reject){
     setTimeout(function(){
         let error =false
