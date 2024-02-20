@@ -16,3 +16,24 @@ new Promise(function(resolve, reject){
 },1000).then(function(){
     console.log("Jai BajrangBali")
 })
+
+
+const promisetwo = new Promise(function(resolve, reject){
+    setTimeout(function(){
+        let error =false
+        if(!error){
+            resolve({username: "Vikas",password : "12345"})
+        }else{
+            reject('Error:Something Wrong')
+        }
+    },1000)
+})
+
+promisetwo.then((user) =>{
+    console.log(user);
+    return user.username;
+}).then((username) =>{
+    console.log(username);
+}).catch(function(error){
+    console.log(error);
+})
