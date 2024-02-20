@@ -9,3 +9,10 @@ const promiseone = new Promise(function(resolve, reject){
 promiseone.then(function(){
     console.log("Promise Resolve")
 })
+
+new Promise(function(resolve, reject){
+    console.log("Jai Sree Ram")
+    resolve();
+},1000).then(function(){
+    console.log("Jai BajrangBali")
+})
