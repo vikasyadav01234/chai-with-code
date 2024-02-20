@@ -10,6 +10,7 @@ promiseone.then(function(){
     console.log("Promise Resolve")
 })
 
+
 new Promise(function(resolve, reject){
     console.log("Jai Sree Ram")
     resolve();
