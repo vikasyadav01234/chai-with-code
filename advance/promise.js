@@ -2,7 +2,7 @@ const promiseone = new Promise(function(resolve, reject){
     setTimeout(function(){
         console.log("Vikas Yadav");
 
-        resolve()
+        resolve();
     },1000)
 
 })
