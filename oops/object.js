@@ -4,4 +4,14 @@ function vikas(num){
 vikas.power=2
 console.log(vikas(5));
 console.log(vikas.power);
-console.log(vikas.prototype)
+console.log(vikas.prototype);
+function createUser(username , score){
+    this.username = username;
+    this.score = score;
+}
+
+createUser.prototype.increment = function(){
+    this.score++
+}
+
+const vikas = createUser("vikas",10000000);
