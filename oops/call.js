@@ -1,6 +1,6 @@
 function Setusername(username){
     this.username = username
-    console.log(called);
+    console.log("called");
 }
 
 function createUser(username, email, password){
