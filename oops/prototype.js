@@ -13,3 +13,16 @@ Object.prototype.Vikas = function(){
 }
 heropower.Vikas();
 myheros.Vikas();
+
+//code
+
+
+let username ="Vikas Yadav   "
+
+String.prototype.trueLength = function(){
+    console.log(`${this}`);
+    console.log(`${this.name}`);
+    console.log(`True Length is : ${this.trim().length}`);
+}
+
+username.trueLength();
