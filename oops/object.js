@@ -17,5 +17,6 @@ createUser.prototype.printme = function(){
     console.log(`Score is ${this.score}`)
 }
 
-const tea = createUser("vikas",10000000);
+const tea =new createUser("vikas",10000000);
 
+tea.printme();
