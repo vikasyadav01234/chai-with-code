@@ -1,3 +1,5 @@
 function vikas(num){
     return num*5
 }
+vikas.power=2
+console.log(vikas(5));
