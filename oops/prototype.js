@@ -26,3 +26,4 @@ String.prototype.trueLength = function(){
 }
 
 username.trueLength();
+"hitesh".trueLength();
