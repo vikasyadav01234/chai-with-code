@@ -14,4 +14,5 @@ createUser.prototype.increment = function(){
     this.score++
 }
 
-const vikas = createUser("vikas",10000000);
+const tea = createUser("vikas",10000000);
+
