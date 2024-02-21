@@ -11,4 +11,5 @@ let heropower = {
 Object.prototype.Vikas = function(){
     console.log(`Vikas is present in all objects`);
 }
-heropower.Vikas()
+heropower.Vikas();
+myheros.Vikas();
