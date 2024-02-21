@@ -4,3 +4,4 @@ function vikas(num){
 vikas.power=2
 console.log(vikas(5));
 console.log(vikas.power);
+console.log(vikas.prototype)
