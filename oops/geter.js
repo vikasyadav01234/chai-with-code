@@ -4,13 +4,13 @@ class User{
         this.password = password
     }
     get password(){
-        return this.password.toUpperCase()
+        return this._password.toUpperCase()
     }
 
     set password(value){
-        this.password = value.toUpperCase()
+        this._password = value.toUpperCase()
     }
 }
 
-const hitesh = new User ("hitesh.ai","12345")
+const hitesh = new User ("hitesh.ai","vikas")
 console.log(hitesh.password);
