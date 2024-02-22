@@ -20,3 +20,4 @@ class User{
 
 const hitesh = new User ("hitesh.ai","vikas")
 console.log(hitesh.password);
+console.log(hitesh.email);
