@@ -1,2 +1,9 @@
 const descripter =Object.getOwnPropertyDescriptor(Math,"PI")
 console.log(descripter);
+
+const chai ={
+    name: 'Spacial Chai',
+    price: 200,
+    isAvailable: true
+}
+console.log(chai)
