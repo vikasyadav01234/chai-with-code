@@ -5,8 +5,11 @@ const User = {
     get email(){
         return this._email.toUpperCase()
     },
-    get password(){
-        this._password = value
+    set email(value){
+        this._email = value
     }
 }
 
+const tea = Object.create(User)
+
+console.log(tea.email);
