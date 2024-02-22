@@ -13,12 +13,13 @@
         constructor(){
             this.library = "React"
             this.server = "https://localhost:300"
-            document.querySelector('button').addEventListener('click',this.handleclick)
+            document.querySelector('button').addEventListener('click',this.handleclick.bind(this))
         }
         
         handleclick(){
             console.log("Button clicked");
             console.log(this);
+            console.log(this.server);
         }
     }
 
