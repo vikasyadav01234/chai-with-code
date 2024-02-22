@@ -1,6 +1,6 @@
 const User = {
-    _email: 'vikas@gmail.com',
-    _password:"vikas",
+    email: 'vikas@gmail.com',
+    password:"vikas",
 
     get email(){
         return this._email.toUpperCase()
