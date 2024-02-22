@@ -3,6 +3,12 @@ class User{
         this.email = email;
         this.password = password
     }
+    get email(){
+        return `${this._email}`
+    }
+    set email(){
+        this._email = value
+    }
     get password(){
         return `${this._password.toUpperCase()}vikas`
     }
