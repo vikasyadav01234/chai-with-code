@@ -11,13 +11,13 @@
 </body>
 
 <script>
-    function init(){
-        let name = "Mozilla";
-        function displayName(){
-            console.log(name);
+   
+    function clickhandler(color){
+        return function(){
+            document.body.style.backgroundColor = '${color}'
         }
-        displayName();
     }
-    init();
+    document.getElementById('orange').onclick = clickhandler("orange")
+    document.getElementById('green').onclick = clickhandler("green")
 </script>
 </html>
