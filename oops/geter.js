@@ -8,7 +8,7 @@ class User{
     }
 
     set password(value){
-        this.password = value
+        this.password = value.toUpperCase()
     }
 }
 
