@@ -4,7 +4,7 @@ class User{
         this.password = password
     }
     get password(){
-        return this._password.toUpperCase()
+        return `${this._password.toUpperCase()}vikas`
     }
 
     set password(value){
