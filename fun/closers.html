@@ -14,10 +14,10 @@
    
     function clickhandler(color){
         return function(){
-            document.body.style.backgroundColor = '${color}'
+            document.body.style.backgroundColor = `${color}`
         }
     }
-    document.getElementById('#orange').onclick = clickhandler("orange")
-    document.getElementById('#green').onclick = clickhandler("green")
+    document.getElementById('orange').onclick = clickhandler("orange")
+    document.getElementById('green').onclick = clickhandler("green")
 </script>
 </html>
